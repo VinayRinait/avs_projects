@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Website</title>
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav second">
+        <div class="icons">
+          <div class="icon">
+            <i class="bx bx-link"></i>
+          </div>
+          <div class="icon">
+            <i class="bx bx-bell"></i>
+          </div>
+
+          <div class="icon user-icon">
+            <i class="bx bx-user"></i>
+            <span>User</span>
+          </div>
+        </div>
+      </nav>
+      <nav class="nav-second">
+        <div>
+          <div>
+            <i class="bx bx-gift"></i>
+            <span>Offers</span>
+            <p>Stay updated Pay less</p>
+          </div>
+        </div>
+        <div class="divcompare">
+          <div>
+            <span>Compare</span>
+            <p>Decode the right Product</p>
+          </div>
+          <div>
+            <select>
+              <option value="">Select City</option>
+              <option value="">Nagpur</option>
+            </select>
+          </div>
+          <div>
+            <i class="bx bx-heart"></i>
+          </div>
+          <div>
+            <i class="bx bx-cart"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="select-container">
+        <label for="brand-select">Select by Brand:</label>
+        <select id="brand-select" name="brand">
+          <option value="brand1">Brand 1</option>
+          <option value="brand2">Brand 2</option>
+          <option value="brand3">Brand 3</option>
+          <option value="brand4">Brand 4</option>
+        </select>
+
+        <label for="model-select">Select by Model:</label>
+        <select id="model-select" name="model">
+          <option value="model1">Model 1</option>
+          <option value="model2">Model 2</option>
+          <option value="model3">Model 3</option>
+          <option value="model4">Model 4</option>
+        </select>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <img src="image.jpg" />
+          <div class="card-info">
+            <h2>Card Title</h2>
+            <p>Card Description</p>
+            <button>Button Text</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="image.jpg" />
+          <div class="card-info">
+            <h2>Card Title</h2>
+            <p>Card Description</p>
+            <button>Button Text</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer id="footer"></footer>
+  </body>
+  <script type="module" src="./scripts/index.js"></script>
+</html>
