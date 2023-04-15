@@ -4,10 +4,9 @@ function Footer() {
   
   <div class="footer-container">
     <div class="footer-left">
-      <h2>Company Name</h2>
-      <p>123 Main St.</p>
-      <p>City, State ZIP</p>
-      <p>Phone: 555-555-5555</p>
+      <h2>CAR'NAAMA</h2>
+     
+      <p>Phone: +91 9343133703 , +91 6263150141 </p>
     </div>
     <div class="footer-center">
       <h3>Follow Us</h3>

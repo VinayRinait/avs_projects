@@ -1,0 +1,68 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "color": "Pearl Midnight Black",
+      "brand": "Baleno",
+      "Interior_side": "https://res.cloudinary.com/dqi30uhiy/image/upload/v1681556908/WhatsApp_Image_2023-04-15_at_1.13.53_PM_leyqin.jpg",
+      "Exterior_side": "https://res.cloudinary.com/dqi30uhiy/image/upload/v1681556595/WhatsApp_Image_2023-04-15_at_1.12.39_PM_l3rxdp.jpg",
+      "model": ""
+    },
+    {
+      "id": 2,
+      "color": "Pearl Midnight Black",
+      "brand": "Baleno",
+      "Interior_side": "https://res.cloudinary.com/dqi30uhiy/image/upload/v1681556908/WhatsApp_Image_2023-04-15_at_1.13.53_PM_leyqin.jpg",
+      "Exterior_side": "https://res.cloudinary.com/dqi30uhiy/image/upload/v1681556595/WhatsApp_Image_2023-04-15_at_1.12.39_PM_l3rxdp.jpg",
+      "model": ""
+    },
+    {
+      "id": 3,
+      "color": "Pearl Midnight Black",
+      "brand": "Baleno",
+      "Interior_side": "https://res.cloudinary.com/dqi30uhiy/image/upload/v1681556908/WhatsApp_Image_2023-04-15_at_1.13.53_PM_leyqin.jpg",
+      "Exterior_side": "https://res.cloudinary.com/dqi30uhiy/image/upload/v1681556595/WhatsApp_Image_2023-04-15_at_1.12.39_PM_l3rxdp.jpg",
+      "model": ""
+    },
+    {
+      "id": 4,
+      "color": "Pearl Midnight Black",
+      "brand": "Baleno",
+      "Interior_side": "https://res.cloudinary.com/dqi30uhiy/image/upload/v1681556908/WhatsApp_Image_2023-04-15_at_1.13.53_PM_leyqin.jpg",
+      "Exterior_side": "https://res.cloudinary.com/dqi30uhiy/image/upload/v1681556595/WhatsApp_Image_2023-04-15_at_1.12.39_PM_l3rxdp.jpg",
+      "model": ""
+    },
+    {
+      "id": 5,
+      "color": "Pearl Midnight Black",
+      "brand": "Baleno",
+      "Interior_side": "https://res.cloudinary.com/dqi30uhiy/image/upload/v1681556908/WhatsApp_Image_2023-04-15_at_1.13.53_PM_leyqin.jpg",
+      "Exterior_side": "https://res.cloudinary.com/dqi30uhiy/image/upload/v1681556595/WhatsApp_Image_2023-04-15_at_1.12.39_PM_l3rxdp.jpg",
+      "model": ""
+    },
+    {
+      "id": 6,
+      "color": "Pearl Midnight Black",
+      "brand": "Baleno",
+      "Interior_side": "https://res.cloudinary.com/dqi30uhiy/image/upload/v1681556908/WhatsApp_Image_2023-04-15_at_1.13.53_PM_leyqin.jpg",
+      "Exterior_side": "https://res.cloudinary.com/dqi30uhiy/image/upload/v1681556595/WhatsApp_Image_2023-04-15_at_1.12.39_PM_l3rxdp.jpg",
+      "model": ""
+    },
+    {
+      "id": 7,
+      "color": "Pearl Midnight Black",
+      "brand": "Baleno",
+      "Interior_side": "https://res.cloudinary.com/dqi30uhiy/image/upload/v1681556908/WhatsApp_Image_2023-04-15_at_1.13.53_PM_leyqin.jpg",
+      "Exterior_side": "https://res.cloudinary.com/dqi30uhiy/image/upload/v1681556595/WhatsApp_Image_2023-04-15_at_1.12.39_PM_l3rxdp.jpg",
+      "model": ""
+    },
+    {
+      "id": 8,
+      "color": "",
+      "brand": "Scorpio",
+      "Interior_side": "https://res.cloudinary.com/dqi30uhiy/image/upload/v1681557052/WhatsApp_Image_2023-04-15_at_1.13.54_PM_1_tg7snh.jpg",
+      "Exterior_side": "https://res.cloudinary.com/dqi30uhiy/image/upload/v1681556595/WhatsApp_Image_2023-04-15_at_1.12.39_PM_l3rxdp.jpg",
+      "model": ""
+    }
+  ]
+}

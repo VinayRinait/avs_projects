@@ -1,75 +1,76 @@
-/* Default styles for footer */
-.footer {
-    background-color: #f2f2f2;
-    color: #333;
-    padding: 3.125rem 0; /* equivalent to 50px */
-  }
-  
-  .footer-container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 68.75rem; /* equivalent to 1100px */
-    margin: 0 auto;
-  }
-  
-  .footer-left {
-    flex-basis: 40%;
-  }
-  
-  .footer-center {
-    flex-basis: 20%;
-    text-align: center;
-  }
-  
-  .social-icons {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .social-icons a {
-    color: #333;
-    font-size: 1.5rem; /* equivalent to 24px */
-    margin: 0 1rem; /* equivalent to 10px */
-  }
-  
-  .footer-right {
-    flex-basis: 40%;
-  }
-  
-  form input {
-    padding: 0.625rem; /* equivalent to 10px */
-    border: none;
-    border-radius: 0.3125rem; /* equivalent to 5px */
-    margin-bottom: 0.625rem; /* equivalent to 10px */
-  }
-  
-  form button {
-    padding: 0.625rem; /* equivalent to 10px */
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 0.3125rem; /* equivalent to 5px */
-  }
-  
-  .footer-bottom {
-    background-color: #ddd;
-    padding: 0.625rem 0; /* equivalent to 10px */
-    text-align: center;
-  }
-  
-  /* Media queries for responsiveness */
-  @media only screen and (max-width: 768px) {
-    .footer-container {
-      flex-wrap: wrap;
-    }
-    
-    .footer-left, .footer-right, .footer-center {
-      flex-basis: 100%;
-      margin-bottom: 2rem; /* equivalent to 32px */
-    }
-    
-    .social-icons a {
-      margin: 0 0.5rem; /* equivalent to 8px */
-    }
-  }
-  
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 50px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.footer-left h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.footer-left p {
+  font-size: 18px;
+  color: #555;
+}
+
+.footer-center h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 24px;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+.footer-right h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.footer-right input[type="email"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.footer-right button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.footer-right button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.footer-bottom {
+  background-color: #ddd;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
