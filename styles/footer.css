@@ -3,7 +3,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
+  background-color: 	#052e45;
   padding: 50px;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
@@ -12,36 +13,36 @@
 .footer-left h2 {
   font-size: 28px;
   margin-bottom: 20px;
-  color: #333;
+  color:white
 }
 
 .footer-left p {
   font-size: 18px;
-  color: #555;
+  color:white
 }
 
 .footer-center h3 {
   font-size: 22px;
   margin-bottom: 20px;
-  color: #333;
+  color:white
 }
 
 .social-icons a {
   display: inline-block;
   margin-right: 20px;
   font-size: 24px;
-  color: #555;
+  color:white;
   transition: color 0.3s;
 }
 
 .social-icons a:hover {
-  color: #007bff;
+  color: #ff4d4d
 }
 
 .footer-right h3 {
   font-size: 22px;
   margin-bottom: 20px;
-  color: #333;
+  color:white
 }
 
 .footer-right input[type="email"] {
@@ -54,23 +55,24 @@
 
 .footer-right button[type="submit"] {
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color:  #e6ecf2;
+  color: black;
   border: none;
   border-radius: 5px;
-  color: #fff;
+  
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 .footer-right button[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #ff4d4d;
 }
 
 .footer-bottom {
-  background-color: #ddd;
+  background-color: 	#052e45;
   padding: 10px;
   text-align: center;
   font-size: 14px;
-  color: #666;
+ color: white;
 }

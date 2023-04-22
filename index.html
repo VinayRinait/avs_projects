@@ -3,25 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Car Website</title>
     <link rel="stylesheet" href="./styles/navbar.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" type="image/png" href="./Image/logo2.png" />
     <link rel="stylesheet" href="./styles/footer.css" />
     <link rel="stylesheet" href="./styles/index.css" />
+    <!-- Swiper JS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.css"
+    />
+
+    <!-- Link Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <title>CAR'NAAMA</title>
   </head>
   <body>
     <header>
       <nav class="nav-second">
         <div id="logo">
-          <img src="Image/pallavi.png" alt="" />
+          <img src="Image/logo.png" alt="" />
         </div>
         <div id="offer">
           <div>
             <i class="bx bx-gift"></i>
-            <span>Offers</span>
+            <span class="i">Offers</span>
           </div>
         </div>
         <div class="divcompare">
@@ -47,49 +65,221 @@
         </div>
       </nav>
     </header>
+
     <main id="main">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="/Image/jason-leung-Xaanw0s0pMk-unsplash.jpg"
+              alt="First slide"
+              height="400px"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="/Image/jon-tyson-CrYTr1335_4-unsplash.jpg"
+              alt="Second slide"
+              height="400px"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="/Image/jorg-angeli-CAMwIxYk5Xg-unsplash.jpg"
+              alt="Third slide"
+              height="400px"
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <h1 class="heading">Select Your Car</h1>
       <div class="select-container">
-        <select id="brand-select" name="brand">
-          <option value="brand1">Brand 1</option>
-          <option value="brand2">Brand 2</option>
-          <option value="brand3">Brand 3</option>
-          <option value="brand4">Brand 4</option>
+        <select id="carSelect1">
+          <option value="">All Cars</option>
+          <option value="suzuki">Suzuki</option>
+          <option value="mahindra">Mahindra</option>
         </select>
 
-        <select id="model-select" name="model">
-          <option value="model1">Model 1</option>
-          <option value="model2">Model 2</option>
-          <option value="model3">Model 3</option>
-          <option value="model4">Model 4</option>
+        <select id="carSelect2" name="model">
+          <option value="">Model</option>
+          <option value="baleno">Baleno</option>
+          <option value="scorpio">Scorpio</option>
         </select>
 
         <select id="color-select" name="color">
-          <option value="red">red</option>
-          <option value="blue">blue</option>
-          <option value="black">black</option>
-          <option value="orange">orange</option>
+          <option value="">Colour</option>
+          <option value="red" data-color="#FF0000">Red</option>
+          <option value="blue" data-color="#0000FF">Blue</option>
+          <option value="black" data-color="#000000">Black</option>
+          <option value="orange" data-color="#FFA500">Orange</option>
         </select>
       </div>
-      <div class="card-container">
-        <div class="card">
-          <img src="image.jpg" />
-          <div class="card-info">
-            <h2>Card Title</h2>
-            <p>Card Description</p>
-            <button>Button Text</button>
+      <div class="card-container"></div>
+
+      <h1 class="heading">Why You Choose Us</h1>
+      <div class="container">
+        <section class="iconsContainer">
+          <div class="icons">
+            <i class="fas fa-home"></i>
+
+            <div class="content">
+              <h3>100+</h3>
+              <p>Branches</p>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <img src="image.jpg" />
-          <div class="card-info">
-            <h2>Card Title</h2>
-            <p>Card Description</p>
-            <button>Button Text</button>
+
+          <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+              <h3>5870+</h3>
+              <p>Cars Sold</p>
+            </div>
           </div>
-        </div>
+
+          <div class="icons">
+            <i class="fas fa-users"></i>
+            <div class="content">
+              <h3>2560+</h3>
+              <p>Happy Customers</p>
+            </div>
+          </div>
+
+          <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+              <h3>1000+</h3>
+              <p>New Launches</p>
+            </div>
+          </div>
+        </section>
       </div>
+
+      <section id="Review" class="review">
+        <h1 class="heading">Client's Review</h1>
+
+        <div class="swiper ReviewSlider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+              <img src="Image/user2.png" alt="" />
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia exercitationem ratione voluptates aspernatur, eum
+                  sed.
+                </p>
+                <h3>Easy Coding</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide box">
+              <img src="Image/user1.png" alt="" />
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia exercitationem ratione voluptates aspernatur, eum
+                  sed.
+                </p>
+                <h3>Easy Coding</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide box">
+              <img src="image/user3.png" alt="" />
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia exercitationem ratione voluptates aspernatur, eum
+                  sed.
+                </p>
+                <h3>Easy Coding</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide box">
+              <img src="image/user4.png" alt="" />
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia exercitationem ratione voluptates aspernatur, eum
+                  sed.
+                </p>
+                <h3>Easy Coding</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer id="footer"></footer>
   </body>
   <script type="module" src="./scripts/index.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+  ></script>
 </html>
